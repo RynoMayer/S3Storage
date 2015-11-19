@@ -1,6 +1,6 @@
 <?php
 //connection string
-include 'connectToAwsCustom.php';
+include 'connectToAws.php';
 
 //create unique bucket name
 $bucket = uniqid("RhinoBucket",true);
