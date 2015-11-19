@@ -1,7 +1,7 @@
 <?php
 //connection string
 include 'connectToAws.php';
-
+echo "<h1 align=\"center\"> Hello Rhino! </h1>";
 //create unique bucket name
 $bucket = uniqid("RhinoBucket",true);
 
