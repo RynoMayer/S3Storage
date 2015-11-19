@@ -3,10 +3,10 @@
 include 'connectToAws.php';
 echo "<h1 align=\"center\"> Hello Rhino! </h1>";
 //create unique bucket name
-$bucket = uniqid("RhinoBucket",true);
+//$bucket = uniqid("RhinoBucket",true);
 
 //create our bucket using unique bucket name
-$result = $client->createBucket(array('bucket' => $bucket));
+//$result = $client->createBucket(array('bucket' => $bucket));
 
 //Html to create our webpage
 echo "<h1 align=\"center\"> Hello Rhino! </h1>";
